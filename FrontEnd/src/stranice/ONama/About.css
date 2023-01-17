@@ -1,0 +1,131 @@
+
+body{
+    background: rgb(245, 237, 248);
+}
+.pozadina{
+  background: rgb(245, 237, 248);
+  height: 60em;
+  
+}
+.oNamaKont
+{
+  display: flex;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  object-fit: contain;
+
+}
+.imgIce{
+  width: 10em;
+  height: 10em;
+  margin-left: 50px;
+}
+.divText{
+  background-color: rgb(245, 237, 248);
+}
+.div.jumbotron{
+  background-color: rgb(245, 237, 248);
+ 
+}
+
+.jumbotron
+{
+  width:50%;
+  color:  rgb(39, 28, 50);
+  font-style: italic;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}
+
+
+.onama
+{
+  
+  margin-left: 80px;
+  position: relative;
+  color: rgb(39, 28, 50);
+}
+.form1
+{
+  display: flex;
+  flex-direction: row;
+  border:solid 1px rgb(61, 98, 98);
+  height:45%;
+  
+}
+.bg-image,.hover-zoom
+{
+  width: 50%;
+  
+ 
+
+}
+.hover-zoom img{
+  transition: all 0.3s ease 0s;
+}
+.hover-zoom img:hover
+{
+  transform: scale(1.25);
+}
+p
+{
+  cursor:pointer;
+}
+p span
+  {
+    transition: 0.5s;
+  }
+ 
+ p:hover span{
+    
+    text-shadow: 0 0 0.5px #fff;
+  }
+
+.divText
+{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 50px;
+  background-color:  rgb(245, 237, 248);
+  color: #fff;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  font-style: italic;
+  font-family:'Times New Roman', Times, serif; 
+}
+.nesto{
+  width:50%;
+  
+  color:black;
+}
+.nasl
+{
+  margin-top: 20px;
+}
+.info
+{
+  color: yellowgreen;
+}
+h4{
+  color:  #D7E1E9;
+  display: flex;
+  justify-content: space-between;
+}
+.scala
+{
+  height: 10px;
+  width: 100%;
+  background-color: yellow;
+}
+@media screen and (max-width:900px) {
+  .form1 ,.oNamaKont{
+   display: flex;
+   flex-wrap: wrap;
+  
+  }
+}

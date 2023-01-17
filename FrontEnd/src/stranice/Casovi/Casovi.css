@@ -1,0 +1,31 @@
+.pomRedDodajCas
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+   
+    width: 100%;
+    padding: 5px;
+}
+.redValidacija
+{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 90px;
+}
+.divTreninzi
+{
+    padding: 10px;
+}
+.divModal
+{
+   
+   border-bottom: solid blue 1px;
+}
+.profilnaSlikaInstruktora
+{
+height: 90px;
+width: 90px;
+}

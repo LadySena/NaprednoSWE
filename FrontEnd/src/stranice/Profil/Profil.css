@@ -1,0 +1,119 @@
+.pomocniDivProfil
+{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    background:rgb(240, 220, 220);
+    height: 900px;
+    width:300px;
+}
+.pomocniDivProfilll
+{
+    display: flex;
+    flex-direction: row;
+}
+.glavniDivProfil
+{
+    display:flex;
+    flex-direction: column;
+    background-color: rgb(250, 234, 231);
+    height: 900px;
+   
+}
+.naslovTreninzi
+{
+    margin-top: 150px;
+}
+@media (max-width:750px) 
+{
+    .glavniDivProfil,.pomocniDivProfilll
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+.pomInfo
+{
+    color:rgb(142, 111, 104);
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.redDugmiciPrihvOtkazi
+{
+    display: flex;
+   padding-right: 350px;
+}
+
+.naslovEvidencija
+{
+    font-size:larger;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    color:rgb(142, 111, 104);
+    margin-left:200px;
+    font-style:italic;
+}
+.divInstruktor
+{
+    display: flex;
+    flex-direction: column;
+    margin :50px;
+    align-items:flex-start;
+    padding: 5px;
+}
+.profilnaSlika
+{
+    border: solid black 0.5px;
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    margin-top:10px;
+    margin-left: 25px;
+}
+.redZakazi
+{
+   padding-right: 300px;
+}
+.datePickerRow
+{
+    padding-right: 50px;
+}
+.row
+{
+    justify-content: space-between;
+}
+.dugmIzmeni
+{
+    width: 150px;
+    margin-left:40px;
+    margin-top :15px;
+}
+.chooseFile
+{
+    background-color: rgba(0, 0, 0, 0);
+}
+.unosIzmena
+{
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    background-color: #7d90bd;
+    border: 0;
+    border-radius: 4px;
+    transition: all 250ms ease-in-out;
+    margin-right: 50px;
+
+}
+.btnIzmeniSliku
+{
+    width:150px;
+    height: 40px;
+    margin-left:40px;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+.zakazi{
+    margin-left: 200px;
+}
